@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.logo{
+    background-color: aqua;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/anukrati-omar-tYvVrkRtOD0-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner p{
+    text-align: center;
+    color: black;
+    padding-top: 250px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: brown;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.btntext{
+    text-align: center;
+    color: black;
+    padding-top: 15px;
+}
+.card{
+    height: 500px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.bishal1{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box1{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+.box2{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+.box3{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+.bishal2{
+    display: flex;
+    justify-content: space-around;
+}
+.box4{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+
+.box5{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+.box6{
+    height: 100px;
+    width:200px;
+    background-color: darkgrey;
+    margin-top: 20px;
+}
+.card p{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+}
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: saddlebrown;
+    
+}
+.footer p{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 40px;
+}
+
+@media screen and (max-width:576px) {
+
+
+    .header{
+        width: 100%;
+        height: 50px;
+        display: flex;
+    }
+    
+    .logo{
+        background-color: aqua;
+        color: white;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+    
+    .navbar{
+        width: 100%;
+        height: 50px;
+        background-color: aqua;
+    }
+    
+    .navbar ul{
+        margin: 0px;
+        padding: 0px;
+        float: right;
+        padding-top: 10px;
+    }
+    
+    .navbar ul li{
+        display: inline-block;
+    }
+    
+    .navbar ul li a{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-right: 30px;
+        text-decoration: none;
+    }
+
+    .banner{
+        width: 100%;
+        height: 600px;
+        background-image: url('../images/anukrati-omar-tYvVrkRtOD0-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .banner p{
+        text-align: center;
+        color: black;
+        padding-top:200px;
+    }
+
+    .card{
+        height:755px;
+        width: 100%;
+        background-color: cadetblue;
+    }
+    .bishal1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .box1{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 20px;
+    }
+    .box2{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 20px;
+    }
+    .box3{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 20px;
+    }
+    
+    .bishal2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box4{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 20px;
+    }
+    
+    .box5{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 20px;
+    }
+    .box6{
+        height: 100px;
+        width:200px;
+        background-color: darkgrey;
+        margin-top: 10px;
+    }
+    
+
+}
+@media screen and  (max-width:468px) { 
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}
+
+.navbar ul{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    padding-top: 10px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+    
+}
